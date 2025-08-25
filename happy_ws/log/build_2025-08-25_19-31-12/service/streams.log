@@ -1,0 +1,24 @@
+[2.575s] Invoking command in '/home/st/sample/happy_ws/src/service': PYTHONPATH=/home/st/sample/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/sample/happy_ws/install/service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service build --build-base /home/st/sample/happy_ws/build/service/build install --record /home/st/sample/happy_ws/build/service/install.log --single-version-externally-managed install_data
+[3.375s] running egg_info
+[3.381s] writing ../../build/service/service.egg-info/PKG-INFO
+[3.382s] writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt
+[3.384s] writing entry points to ../../build/service/service.egg-info/entry_points.txt
+[3.388s] writing requirements to ../../build/service/service.egg-info/requires.txt
+[3.388s] writing top-level names to ../../build/service/service.egg-info/top_level.txt
+[3.392s] reading manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[3.395s] writing manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[3.396s] running build
+[3.396s] running build_py
+[3.399s] copying service/server.py -> /home/st/sample/happy_ws/build/service/build/lib/service
+[3.401s] running install
+[3.402s] running install_lib
+[3.404s] copying /home/st/sample/happy_ws/build/service/build/lib/service/server.py -> /home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service
+[3.408s] byte-compiling /home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service/server.py to server.cpython-310.pyc
+[3.409s] running install_data
+[3.409s] running install_egg_info
+[3.414s] removing '/home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service-0.0.0-py3.10.egg-info' (and everything under it)
+[3.420s] Copying ../../build/service/service.egg-info to /home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service-0.0.0-py3.10.egg-info
+[3.420s] running install_scripts
+[3.505s] Installing server = service.server:mainclient script to /home/st/sample/happy_ws/install/service/lib/service
+[3.506s] writing list of installed files to '/home/st/sample/happy_ws/build/service/install.log'
+[3.614s] Invoked command in '/home/st/sample/happy_ws/src/service' returned '0': PYTHONPATH=/home/st/sample/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/sample/happy_ws/install/service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service build --build-base /home/st/sample/happy_ws/build/service/build install --record /home/st/sample/happy_ws/build/service/install.log --single-version-externally-managed install_data

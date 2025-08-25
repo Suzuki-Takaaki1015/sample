@@ -1,0 +1,2 @@
+Invoking command in '/home/st/sample/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/home/st/sample/happy_ws/install/random_number:/opt/ros/humble /usr/bin/cmake /home/st/sample/happy_ws/src/service_msgs -DCMAKE_INSTALL_PREFIX=/home/st/sample/happy_ws/install/service_msgs
+Invoked command in '/home/st/sample/happy_ws/build/service_msgs' returned '1': CMAKE_PREFIX_PATH=/home/st/sample/happy_ws/install/random_number:/opt/ros/humble /usr/bin/cmake /home/st/sample/happy_ws/src/service_msgs -DCMAKE_INSTALL_PREFIX=/home/st/sample/happy_ws/install/service_msgs

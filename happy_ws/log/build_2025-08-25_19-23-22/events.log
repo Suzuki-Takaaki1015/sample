@@ -1,0 +1,280 @@
+[0.000000] (-) TimerEvent: {}
+[0.002079] (random_number) JobQueued: {'identifier': 'random_number', 'dependencies': OrderedDict()}
+[0.002233] (service) JobQueued: {'identifier': 'service', 'dependencies': OrderedDict()}
+[0.002360] (service_msgs) JobQueued: {'identifier': 'service_msgs', 'dependencies': OrderedDict()}
+[0.002472] (random_number) JobStarted: {'identifier': 'random_number'}
+[0.026464] (service) JobStarted: {'identifier': 'service'}
+[0.099664] (-) TimerEvent: {}
+[0.200623] (-) TimerEvent: {}
+[0.301641] (-) TimerEvent: {}
+[0.403018] (-) TimerEvent: {}
+[0.503766] (-) TimerEvent: {}
+[0.604520] (-) TimerEvent: {}
+[0.706042] (-) TimerEvent: {}
+[0.807144] (-) TimerEvent: {}
+[0.908313] (-) TimerEvent: {}
+[1.009622] (-) TimerEvent: {}
+[1.111711] (-) TimerEvent: {}
+[1.212837] (-) TimerEvent: {}
+[1.314069] (-) TimerEvent: {}
+[1.415238] (-) TimerEvent: {}
+[1.518173] (-) TimerEvent: {}
+[1.619297] (-) TimerEvent: {}
+[1.723009] (-) TimerEvent: {}
+[1.823492] (-) TimerEvent: {}
+[1.925067] (-) TimerEvent: {}
+[2.025621] (-) TimerEvent: {}
+[2.127576] (-) TimerEvent: {}
+[2.230288] (-) TimerEvent: {}
+[2.331061] (-) TimerEvent: {}
+[2.434212] (-) TimerEvent: {}
+[2.504173] (service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/service', 'build', '--build-base', '/home/st/sample/happy_ws/build/service/build', 'install', '--record', '/home/st/sample/happy_ws/build/service/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/st/sample/happy_ws/src/service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'st', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/st', 'OLDPWD': '/home/st/sample', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2353', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'st', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'st', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ST:@/tmp/.ICE-unix/2145,unix/ST:/tmp/.ICE-unix/2145', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0ddb79a_0697_4d29_852b_1daed4d01f17', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B4TXB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.171', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/st/sample/happy_ws/build/service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/st/sample/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/sample/happy_ws/install/service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.537427] (random_number) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/random_number', 'build', '--build-base', '/home/st/sample/happy_ws/build/random_number/build', 'install', '--record', '/home/st/sample/happy_ws/build/random_number/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/st/sample/happy_ws/src/random_number', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'st', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/st', 'OLDPWD': '/home/st/sample', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2353', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'st', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'st', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ST:@/tmp/.ICE-unix/2145,unix/ST:/tmp/.ICE-unix/2145', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0ddb79a_0697_4d29_852b_1daed4d01f17', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B4TXB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.171', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/st/sample/happy_ws/build/random_number', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/st/sample/happy_ws/build/random_number/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.542198] (-) TimerEvent: {}
+[2.646225] (-) TimerEvent: {}
+[2.748056] (-) TimerEvent: {}
+[2.848935] (-) TimerEvent: {}
+[2.951254] (-) TimerEvent: {}
+[3.054066] (-) TimerEvent: {}
+[3.159797] (-) TimerEvent: {}
+[3.260677] (-) TimerEvent: {}
+[3.348153] (service) StdoutLine: {'line': b'running egg_info\n'}
+[3.353041] (service) StdoutLine: {'line': b'writing ../../build/service/service.egg-info/PKG-INFO\n'}
+[3.353517] (service) StdoutLine: {'line': b'writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt\n'}
+[3.358032] (service) StdoutLine: {'line': b'writing entry points to ../../build/service/service.egg-info/entry_points.txt\n'}
+[3.358400] (service) StdoutLine: {'line': b'writing requirements to ../../build/service/service.egg-info/requires.txt\n'}
+[3.358582] (service) StdoutLine: {'line': b'writing top-level names to ../../build/service/service.egg-info/top_level.txt\n'}
+[3.360741] (-) TimerEvent: {}
+[3.366211] (service) StdoutLine: {'line': b"reading manifest file '../../build/service/service.egg-info/SOURCES.txt'\n"}
+[3.369530] (service) StdoutLine: {'line': b"writing manifest file '../../build/service/service.egg-info/SOURCES.txt'\n"}
+[3.372553] (service) StdoutLine: {'line': b'running build\n'}
+[3.372822] (service) StdoutLine: {'line': b'running build_py\n'}
+[3.377022] (service) StdoutLine: {'line': b'copying service/client.py -> /home/st/sample/happy_ws/build/service/build/lib/service\n'}
+[3.377464] (service) StdoutLine: {'line': b'copying service/server.py -> /home/st/sample/happy_ws/build/service/build/lib/service\n'}
+[3.379112] (service) StdoutLine: {'line': b'running install\n'}
+[3.380205] (service) StdoutLine: {'line': b'running install_lib\n'}
+[3.383639] (service) StdoutLine: {'line': b'copying /home/st/sample/happy_ws/build/service/build/lib/service/client.py -> /home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service\n'}
+[3.386042] (service) StdoutLine: {'line': b'copying /home/st/sample/happy_ws/build/service/build/lib/service/server.py -> /home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service\n'}
+[3.392113] (service) StdoutLine: {'line': b'byte-compiling /home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service/client.py to client.cpython-310.pyc\n'}
+[3.396088] (service) StdoutLine: {'line': b'byte-compiling /home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service/server.py to server.cpython-310.pyc\n'}
+[3.396586] (service) StderrLine: {'line': b'Sorry: IndentationError: expected an indented block after function definition on line 18 (server.py, line 20)\n'}
+[3.401641] (service) StdoutLine: {'line': b'running install_data\n'}
+[3.401829] (service) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.408214] (service) StdoutLine: {'line': b"removing '/home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.416067] (service) StdoutLine: {'line': b'Copying ../../build/service/service.egg-info to /home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service-0.0.0-py3.10.egg-info\n'}
+[3.421288] (service) StdoutLine: {'line': b'running install_scripts\n'}
+[3.463162] (-) TimerEvent: {}
+[3.479115] (random_number) StdoutLine: {'line': b'running egg_info\n'}
+[3.482776] (random_number) StdoutLine: {'line': b'writing ../../build/random_number/random_number.egg-info/PKG-INFO\n'}
+[3.483148] (random_number) StdoutLine: {'line': b'writing dependency_links to ../../build/random_number/random_number.egg-info/dependency_links.txt\n'}
+[3.484265] (random_number) StdoutLine: {'line': b'writing entry points to ../../build/random_number/random_number.egg-info/entry_points.txt\n'}
+[3.486739] (random_number) StdoutLine: {'line': b'writing requirements to ../../build/random_number/random_number.egg-info/requires.txt\n'}
+[3.488364] (random_number) StdoutLine: {'line': b'writing top-level names to ../../build/random_number/random_number.egg-info/top_level.txt\n'}
+[3.498034] (random_number) StdoutLine: {'line': b"reading manifest file '../../build/random_number/random_number.egg-info/SOURCES.txt'\n"}
+[3.498491] (service) StdoutLine: {'line': b'Installing server = service.server:mainclient script to /home/st/sample/happy_ws/install/service/lib/service\n'}
+[3.500578] (random_number) StdoutLine: {'line': b"writing manifest file '../../build/random_number/random_number.egg-info/SOURCES.txt'\n"}
+[3.501260] (service) StdoutLine: {'line': b"writing list of installed files to '/home/st/sample/happy_ws/build/service/install.log'\n"}
+[3.503038] (random_number) StdoutLine: {'line': b'running build\n'}
+[3.503304] (random_number) StdoutLine: {'line': b'running build_py\n'}
+[3.505047] (random_number) StdoutLine: {'line': b'running install\n'}
+[3.507768] (random_number) StdoutLine: {'line': b'running install_lib\n'}
+[3.514050] (random_number) StdoutLine: {'line': b'running install_data\n'}
+[3.514596] (random_number) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.519518] (random_number) StdoutLine: {'line': b"removing '/home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.526282] (random_number) StdoutLine: {'line': b'Copying ../../build/random_number/random_number.egg-info to /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number-0.0.0-py3.10.egg-info\n'}
+[3.527879] (random_number) StdoutLine: {'line': b'running install_scripts\n'}
+[3.563227] (-) TimerEvent: {}
+[3.581405] (service) CommandEnded: {'returncode': 0}
+[3.611635] (random_number) StdoutLine: {'line': b'Installing random_topic script to /home/st/sample/happy_ws/install/random_number/lib/random_number\n'}
+[3.615006] (random_number) StdoutLine: {'line': b"writing list of installed files to '/home/st/sample/happy_ws/build/random_number/install.log'\n"}
+[3.623585] (service) JobEnded: {'identifier': 'service', 'rc': 0}
+[3.624714] (service_msgs) JobStarted: {'identifier': 'service_msgs'}
+[3.660694] (service_msgs) JobProgress: {'identifier': 'service_msgs', 'progress': 'cmake'}
+[3.663439] (-) TimerEvent: {}
+[3.664336] (service_msgs) JobProgress: {'identifier': 'service_msgs', 'progress': 'build'}
+[3.666582] (service_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/st/sample/happy_ws/build/service_msgs', '--', '-j2', '-l2'], 'cwd': '/home/st/sample/happy_ws/build/service_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'st'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/st'), ('OLDPWD', '/home/st/sample'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2353'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ST:@/tmp/.ICE-unix/2145,unix/ST:/tmp/.ICE-unix/2145'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0ddb79a_0697_4d29_852b_1daed4d01f17'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B4TXB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/st/sample/happy_ws/build/service_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.700996] (random_number) CommandEnded: {'returncode': 0}
+[3.724245] (random_number) JobEnded: {'identifier': 'random_number', 'rc': 0}
+[3.764182] (-) TimerEvent: {}
+[3.863793] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.864771] (-) TimerEvent: {}
+[3.921928] (service_msgs) StdoutLine: {'line': b'[  3%] Built target service_msgs__cpp\n'}
+[3.963270] (service_msgs) StdoutLine: {'line': b'[ 12%] Built target service_msgs__rosidl_generator_c\n'}
+[3.966160] (-) TimerEvent: {}
+[4.033623] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.066327] (-) TimerEvent: {}
+[4.083426] (service_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_service_msgs\n'}
+[4.093218] (service_msgs) StdoutLine: {'line': b'[ 22%] Built target service_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.133061] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.137142] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.166540] (-) TimerEvent: {}
+[4.175082] (service_msgs) StdoutLine: {'line': b'[ 32%] Built target service_msgs__rosidl_typesupport_cpp\n'}
+[4.203057] (service_msgs) StdoutLine: {'line': b'[ 41%] Built target service_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.215246] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.246546] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.267002] (service_msgs) StdoutLine: {'line': b'[ 51%] Built target service_msgs__rosidl_typesupport_introspection_c\n'}
+[4.270242] (-) TimerEvent: {}
+[4.301529] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.302007] (service_msgs) StdoutLine: {'line': b'[ 61%] Built target service_msgs__rosidl_typesupport_c\n'}
+[4.345283] (service_msgs) StdoutLine: {'line': b'[ 70%] Built target service_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.370404] (-) TimerEvent: {}
+[4.406463] (service_msgs) StdoutLine: {'line': b'[ 70%] Built target service_msgs\n'}
+[4.470560] (-) TimerEvent: {}
+[4.474564] (service_msgs) StdoutLine: {'line': b'[ 74%] Built target service_msgs__py\n'}
+[4.528996] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_generator_py\x1b[0m\n'}
+[4.573113] (-) TimerEvent: {}
+[4.642711] (service_msgs) StdoutLine: {'line': b'[ 80%] Built target service_msgs__rosidl_generator_py\n'}
+[4.677048] (-) TimerEvent: {}
+[4.756328] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.777266] (-) TimerEvent: {}
+[4.851461] (service_msgs) StdoutLine: {'line': b'[ 87%] Built target service_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.877412] (-) TimerEvent: {}
+[4.886550] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.943056] (service_msgs) StdoutLine: {'line': b'[ 93%] Built target service_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.978024] (service_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.978579] (-) TimerEvent: {}
+[5.016635] (service_msgs) StdoutLine: {'line': b'[100%] Built target service_msgs__rosidl_typesupport_c__pyext\n'}
+[5.078817] (-) TimerEvent: {}
+[5.179791] (-) TimerEvent: {}
+[5.220163] (service_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.222978] (service_msgs) StdoutLine: {'line': b'writing service_msgs.egg-info/PKG-INFO\n'}
+[5.225084] (service_msgs) StdoutLine: {'line': b'writing dependency_links to service_msgs.egg-info/dependency_links.txt\n'}
+[5.225338] (service_msgs) StdoutLine: {'line': b'writing top-level names to service_msgs.egg-info/top_level.txt\n'}
+[5.231339] (service_msgs) StdoutLine: {'line': b"reading manifest file 'service_msgs.egg-info/SOURCES.txt'\n"}
+[5.233590] (service_msgs) StdoutLine: {'line': b"writing manifest file 'service_msgs.egg-info/SOURCES.txt'\n"}
+[5.280218] (-) TimerEvent: {}
+[5.291133] (service_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_service_msgs_egg\n'}
+[5.331123] (service_msgs) CommandEnded: {'returncode': 0}
+[5.334393] (service_msgs) JobProgress: {'identifier': 'service_msgs', 'progress': 'install'}
+[5.372569] (service_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/st/sample/happy_ws/build/service_msgs'], 'cwd': '/home/st/sample/happy_ws/build/service_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'st'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/st'), ('OLDPWD', '/home/st/sample'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2353'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'st'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'st'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ST:@/tmp/.ICE-unix/2145,unix/ST:/tmp/.ICE-unix/2145'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0ddb79a_0697_4d29_852b_1daed4d01f17'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B4TXB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/st/sample/happy_ws/build/service_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.381121] (-) TimerEvent: {}
+[5.401274] (service_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.404177] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/ament_index/resource_index/rosidl_interfaces/service_msgs\n'}
+[5.404523] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs\n'}
+[5.404787] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv\n'}
+[5.407134] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/random_service.h\n'}
+[5.407411] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail\n'}
+[5.407654] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__struct.h\n'}
+[5.407875] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__functions.h\n'}
+[5.410694] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__type_support.h\n'}
+[5.410851] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__functions.c\n'}
+[5.411057] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg\n'}
+[5.413257] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.413399] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/environment/library_path.sh\n'}
+[5.413512] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/environment/library_path.dsv\n'}
+[5.413603] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so\n'}
+[5.413720] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs\n'}
+[5.413849] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv\n'}
+[5.413971] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail\n'}
+[5.414313] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__rosidl_typesupport_fastrtps_c.h\n'}
+[5.414584] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg\n'}
+[5.414816] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.415084] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.417351] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs\n'}
+[5.417572] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv\n'}
+[5.417883] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail\n'}
+[5.418376] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__rosidl_typesupport_introspection_c.h\n'}
+[5.418593] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__type_support.c\n'}
+[5.418799] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg\n'}
+[5.418914] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.421023] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.421429] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.so\n'}
+[5.421638] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs\n'}
+[5.421843] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv\n'}
+[5.422537] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/random_service.hpp\n'}
+[5.422978] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail\n'}
+[5.423201] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__type_support.hpp\n'}
+[5.423396] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__struct.hpp\n'}
+[5.423594] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__traits.hpp\n'}
+[5.423807] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__builder.hpp\n'}
+[5.426012] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg\n'}
+[5.426148] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.426571] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs\n'}
+[5.426693] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv\n'}
+[5.426862] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail\n'}
+[5.426976] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/dds_fastrtps\n'}
+[5.427062] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.427146] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg\n'}
+[5.427237] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.431328] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.431540] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs\n'}
+[5.431849] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv\n'}
+[5.434761] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail\n'}
+[5.435120] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.435358] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/include/service_msgs/service_msgs/srv/detail/random_service__type_support.cpp\n'}
+[5.435567] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.435771] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so\n'}
+[5.438068] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/environment/pythonpath.sh\n'}
+[5.438618] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/environment/pythonpath.dsv\n'}
+[5.438845] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info\n'}
+[5.439081] (service_msgs) StdoutLine: {'line': b'-- Installing: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.439286] (service_msgs) StdoutLine: {'line': b'-- Installing: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.439484] (service_msgs) StdoutLine: {'line': b'-- Installing: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.439679] (service_msgs) StdoutLine: {'line': b'-- Installing: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.439895] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs\n'}
+[5.443232] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/libservice_msgs__rosidl_generator_py.so\n'}
+[5.443367] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.443476] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.443571] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv\n'}
+[5.443674] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv/__init__.py\n'}
+[5.443769] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv/_random_service.py\n'}
+[5.443869] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv/_random_service_s.c\n'}
+[5.443974] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/__init__.py\n'}
+[5.444064] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.444161] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.444264] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.444364] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.481263] (-) TimerEvent: {}
+[5.534031] (service_msgs) StdoutLine: {'line': b"Listing '/home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs'...\n"}
+[5.534549] (service_msgs) StdoutLine: {'line': b"Listing '/home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/srv'...\n"}
+[5.545871] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.547024] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.548141] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/local/lib/python3.10/dist-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.549609] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_py.so\n'}
+[5.550373] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/srv/RandomService.idl\n'}
+[5.551206] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/srv/RandomService.srv\n'}
+[5.551403] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/srv/RandomService_Request.msg\n'}
+[5.551554] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/srv/RandomService_Response.msg\n'}
+[5.551751] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/ament_index/resource_index/package_run_dependencies/service_msgs\n'}
+[5.551981] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/ament_index/resource_index/parent_prefix_path/service_msgs\n'}
+[5.553586] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.sh\n'}
+[5.553785] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.dsv\n'}
+[5.553963] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/environment/path.sh\n'}
+[5.554119] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/environment/path.dsv\n'}
+[5.554263] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/local_setup.bash\n'}
+[5.554408] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/local_setup.sh\n'}
+[5.554552] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/local_setup.zsh\n'}
+[5.554697] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/local_setup.dsv\n'}
+[5.554842] (service_msgs) StdoutLine: {'line': b'-- Installing: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/package.dsv\n'}
+[5.558215] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/ament_index/resource_index/packages/service_msgs\n'}
+[5.558517] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport.cmake\n'}
+[5.559082] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.559775] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.560051] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.560261] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.560427] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.560586] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.560738] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.563006] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.563243] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.563398] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.563549] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.563709] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.563856] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.564121] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.566522] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.566733] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.566892] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.567065] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.567218] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.567364] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.567515] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.567777] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.567991] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.569282] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig.cmake\n'}
+[5.569443] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig-version.cmake\n'}
+[5.569595] (service_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/st/sample/happy_ws/install/service_msgs/share/service_msgs/package.xml\n'}
+[5.569746] (service_msgs) CommandEnded: {'returncode': 0}
+[5.584376] (-) TimerEvent: {}
+[5.623535] (service_msgs) JobEnded: {'identifier': 'service_msgs', 'rc': 0}
+[5.627361] (-) EventReactorShutdown: {}

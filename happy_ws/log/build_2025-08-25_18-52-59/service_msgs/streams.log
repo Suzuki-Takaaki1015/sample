@@ -1,0 +1,63 @@
+[0.059s] Invoking command in '/home/st/sample/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/home/st/sample/happy_ws/install/random_number:/opt/ros/humble /usr/bin/cmake /home/st/sample/happy_ws/src/service_msgs -DCMAKE_INSTALL_PREFIX=/home/st/sample/happy_ws/install/service_msgs
+[0.740s] -- The C compiler identification is GNU 11.4.0
+[1.099s] -- The CXX compiler identification is GNU 11.4.0
+[1.155s] -- Detecting C compiler ABI info
+[1.420s] -- Detecting C compiler ABI info - done
+[1.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.445s] -- Detecting C compile features
+[1.449s] -- Detecting C compile features - done
+[1.463s] -- Detecting CXX compiler ABI info
+[1.782s] -- Detecting CXX compiler ABI info - done
+[1.800s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.801s] -- Detecting CXX compile features
+[1.804s] -- Detecting CXX compile features - done
+[1.826s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.831s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.883s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.061s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.879s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[3.879s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.880s]   service_msgs --arguments-file
+[3.880s]   /home/st/sample/happy_ws/build/service_msgs/rosidl_adapter__arguments__service_msgs.json
+[3.880s]   --output-dir
+[3.880s]   /home/st/sample/happy_ws/build/service_msgs/rosidl_adapter/service_msgs
+[3.881s]   --output-file
+[3.881s]   /home/st/sample/happy_ws/build/service_msgs/rosidl_adapter/service_msgs.idls)
+[3.881s]   returned error code 1:
+[3.882s] 
+[3.883s]   Traceback (most recent call last):
+[3.883s] 
+[3.883s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[3.883s]       return _run_code(code, main_globals, None,
+[3.883s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[3.884s]       exec(code, run_globals)
+[3.884s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.885s]       sys.exit(main())
+[3.885s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[3.885s]       abs_idl_file = convert_to_idl(
+[3.885s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[3.885s]       return convert_srv_to_idl(
+[3.886s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[3.886s]       srv = parse_service_string(package_name, input_file.stem, content)
+[3.886s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[3.886s]       request_message = parse_message_string(
+[3.887s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[3.887s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[3.887s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[3.887s]       self.base_type = BaseType(
+[3.887s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[3.888s]       raise InvalidResourceName(
+[3.888s] 
+[3.888s]   rosidl_adapter.parser.InvalidResourceName: 'random_service_Request' is an
+[3.888s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[3.889s] 
+[3.889s] Call Stack (most recent call first):
+[3.889s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.889s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[3.889s] 
+[3.890s] [0m
+[3.892s] -- Configuring incomplete, errors occurred!
+[3.893s] See also "/home/st/sample/happy_ws/build/service_msgs/CMakeFiles/CMakeOutput.log".
+[3.913s] Invoked command in '/home/st/sample/happy_ws/build/service_msgs' returned '1': CMAKE_PREFIX_PATH=/home/st/sample/happy_ws/install/random_number:/opt/ros/humble /usr/bin/cmake /home/st/sample/happy_ws/src/service_msgs -DCMAKE_INSTALL_PREFIX=/home/st/sample/happy_ws/install/service_msgs

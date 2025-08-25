@@ -1,0 +1,6 @@
+{
+  "package_name": "service_msgs",
+  "non_idl_tuples": [
+    "/home/st/sample/happy_ws/src/service_msgs:srv/RandomService.srv"
+  ]
+}

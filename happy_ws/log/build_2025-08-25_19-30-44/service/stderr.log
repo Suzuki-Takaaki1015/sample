@@ -1,0 +1,5 @@
+  File "/home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service/server.py", line 21
+    self.get_loger().info(f{self.num_data})
+                          ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

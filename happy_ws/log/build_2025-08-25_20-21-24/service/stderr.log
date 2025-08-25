@@ -1,0 +1,5 @@
+  File "/home/st/sample/happy_ws/install/service/lib/python3.10/site-packages/service/server.py", line 26
+    if req="合計":
+       ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+

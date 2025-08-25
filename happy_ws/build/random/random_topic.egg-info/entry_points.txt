@@ -1,0 +1,3 @@
+[console_scripts]
+random_topic = random_topic.random_topic:main
+

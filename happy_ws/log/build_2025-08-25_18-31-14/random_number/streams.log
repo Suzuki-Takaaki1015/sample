@@ -1,0 +1,24 @@
+[2.254s] Invoking command in '/home/st/sample/happy_ws/src/random_number': PYTHONPATH=/home/st/sample/happy_ws/build/random_number/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random_number build --build-base /home/st/sample/happy_ws/build/random_number/build install --record /home/st/sample/happy_ws/build/random_number/install.log --single-version-externally-managed install_data
+[3.030s] running egg_info
+[3.032s] writing ../../build/random_number/random_number.egg-info/PKG-INFO
+[3.032s] writing dependency_links to ../../build/random_number/random_number.egg-info/dependency_links.txt
+[3.035s] writing entry points to ../../build/random_number/random_number.egg-info/entry_points.txt
+[3.036s] writing requirements to ../../build/random_number/random_number.egg-info/requires.txt
+[3.036s] writing top-level names to ../../build/random_number/random_number.egg-info/top_level.txt
+[3.041s] reading manifest file '../../build/random_number/random_number.egg-info/SOURCES.txt'
+[3.044s] writing manifest file '../../build/random_number/random_number.egg-info/SOURCES.txt'
+[3.045s] running build
+[3.046s] running build_py
+[3.046s] copying random_number/random_topic.py -> /home/st/sample/happy_ws/build/random_number/build/lib/random_number
+[3.048s] running install
+[3.050s] running install_lib
+[3.051s] copying /home/st/sample/happy_ws/build/random_number/build/lib/random_number/random_topic.py -> /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number
+[3.051s] byte-compiling /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number/random_topic.py to random_topic.cpython-310.pyc
+[3.053s] running install_data
+[3.053s] running install_egg_info
+[3.059s] removing '/home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number-0.0.0-py3.10.egg-info' (and everything under it)
+[3.061s] Copying ../../build/random_number/random_number.egg-info to /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number-0.0.0-py3.10.egg-info
+[3.064s] running install_scripts
+[3.135s] Installing random_topic script to /home/st/sample/happy_ws/install/random_number/lib/random_number
+[3.137s] writing list of installed files to '/home/st/sample/happy_ws/build/random_number/install.log'
+[3.194s] Invoked command in '/home/st/sample/happy_ws/src/random_number' returned '0': PYTHONPATH=/home/st/sample/happy_ws/build/random_number/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random_number build --build-base /home/st/sample/happy_ws/build/random_number/build install --record /home/st/sample/happy_ws/build/random_number/install.log --single-version-externally-managed install_data

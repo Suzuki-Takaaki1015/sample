@@ -1,0 +1,25 @@
+running egg_info
+creating ../../build/random/random_topic.egg-info
+writing ../../build/random/random_topic.egg-info/PKG-INFO
+writing dependency_links to ../../build/random/random_topic.egg-info/dependency_links.txt
+writing entry points to ../../build/random/random_topic.egg-info/entry_points.txt
+writing requirements to ../../build/random/random_topic.egg-info/requires.txt
+writing top-level names to ../../build/random/random_topic.egg-info/top_level.txt
+writing manifest file '../../build/random/random_topic.egg-info/SOURCES.txt'
+reading manifest file '../../build/random/random_topic.egg-info/SOURCES.txt'
+writing manifest file '../../build/random/random_topic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/st/sample/happy_ws/build/random/build
+creating /home/st/sample/happy_ws/build/random/build/lib
+creating /home/st/sample/happy_ws/build/random/build/lib/random_topic
+copying random_topic/__init__.py -> /home/st/sample/happy_ws/build/random/build/lib/random_topic
+copying random_topic/random_topic.py -> /home/st/sample/happy_ws/build/random/build/lib/random_topic
+running install
+running install_lib
+creating /home/st/sample/happy_ws/install/random/lib/python3.10/site-packages/random_topic
+copying /home/st/sample/happy_ws/build/random/build/lib/random_topic/__init__.py -> /home/st/sample/happy_ws/install/random/lib/python3.10/site-packages/random_topic
+copying /home/st/sample/happy_ws/build/random/build/lib/random_topic/random_topic.py -> /home/st/sample/happy_ws/install/random/lib/python3.10/site-packages/random_topic
+byte-compiling /home/st/sample/happy_ws/install/random/lib/python3.10/site-packages/random_topic/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/st/sample/happy_ws/install/random/lib/python3.10/site-packages/random_topic/random_topic.py to random_topic.cpython-310.pyc
+running install_data

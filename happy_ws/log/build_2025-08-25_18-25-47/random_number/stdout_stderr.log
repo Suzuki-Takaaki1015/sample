@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/random_number/random_number.egg-info
+writing ../../build/random_number/random_number.egg-info/PKG-INFO
+writing dependency_links to ../../build/random_number/random_number.egg-info/dependency_links.txt
+writing entry points to ../../build/random_number/random_number.egg-info/entry_points.txt
+writing requirements to ../../build/random_number/random_number.egg-info/requires.txt
+writing top-level names to ../../build/random_number/random_number.egg-info/top_level.txt
+writing manifest file '../../build/random_number/random_number.egg-info/SOURCES.txt'
+reading manifest file '../../build/random_number/random_number.egg-info/SOURCES.txt'
+writing manifest file '../../build/random_number/random_number.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/st/sample/happy_ws/build/random_number/build
+creating /home/st/sample/happy_ws/build/random_number/build/lib
+creating /home/st/sample/happy_ws/build/random_number/build/lib/random_number
+copying random_number/__init__.py -> /home/st/sample/happy_ws/build/random_number/build/lib/random_number
+copying random_number/random_topic.py -> /home/st/sample/happy_ws/build/random_number/build/lib/random_number
+running install
+running install_lib
+creating /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number
+copying /home/st/sample/happy_ws/build/random_number/build/lib/random_number/__init__.py -> /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number
+copying /home/st/sample/happy_ws/build/random_number/build/lib/random_number/random_topic.py -> /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number
+byte-compiling /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number/random_topic.py to random_topic.cpython-310.pyc
+running install_data
+creating /home/st/sample/happy_ws/install/random_number/share/ament_index
+creating /home/st/sample/happy_ws/install/random_number/share/ament_index/resource_index
+creating /home/st/sample/happy_ws/install/random_number/share/ament_index/resource_index/packages
+copying resource/random_number -> /home/st/sample/happy_ws/install/random_number/share/ament_index/resource_index/packages
+copying package.xml -> /home/st/sample/happy_ws/install/random_number/share/random_number
+running install_egg_info
+Copying ../../build/random_number/random_number.egg-info to /home/st/sample/happy_ws/install/random_number/lib/python3.10/site-packages/random_number-0.0.0-py3.10.egg-info
+running install_scripts
+Installing random_topic script to /home/st/sample/happy_ws/install/random_number/lib/random_number
+writing list of installed files to '/home/st/sample/happy_ws/build/random_number/install.log'

@@ -22,25 +22,30 @@ class Math_Service(Node):
     def service_callback(self, request, response):
         req = request.command
         print(f"{req}が要求されました。")
+        try:
 
-        if req=="合計":
-            response.answer = float(sum(self.num_data))
-            return response
+            if req=="合計":
+                response.answer = float(sum(self.num_data))
+                return response
 
-        elif req=="平均":
-            response.answer = float(sum(self.num_data) / len(self.num_data))
-            return response
+            elif req=="平均":
+                response.answer = float(sum(self.num_data) / len(self.num_data))
+                return response
 
-        elif req=="最大値":
-            response.answer = float(max(self.num_data))
-            return response
+            elif req=="最大値":
+                response.answer = float(max(self.num_data))
+                return response
 
-        elif req=="最小値":
-            response.answer = float(min(self.num_data))
-            return response
+            elif req=="最小値":
+                response.answer = float(min(self.num_data))
+                return response
 
-        else:
-            rseponse.answer = 0.0
+            else:
+                rseponse.answer = 0.0
+                return response
+            
+        except Exception as e:
+            response.answer = 0.0
             return response
 
 def main():
